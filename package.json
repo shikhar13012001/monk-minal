@@ -27,7 +27,10 @@
 		"utils",
 		"modules",
 		"package.json",
-		"README.md"
+		"README.md",
+		"LICENSE",
+		"data",
+		".prettierrc"
 	],
 	"scripts": {
 		"dev": "nodemon index.js",

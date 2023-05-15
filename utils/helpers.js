@@ -36,7 +36,7 @@ const getWords = data => {
 		generatedWords = randomWordsArray;
 		// generatedWords = randomWords({ exactly: count, maxLength: 12 });
 	}
- console.log(generatedWords,count);
+  
 
 	return generatedWords;
 };

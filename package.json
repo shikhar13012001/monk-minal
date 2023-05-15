@@ -4,8 +4,8 @@
 	"version": "1.0.0",
 	"license": "MIT",
 	"bin": {
-		"monk-minal": "index.js",
-		"mm": "index.js"
+		"monk-n-minal": "index.js",
+		"mnm": "index.js"
 	},
 	"author": {
 		"name": "shikhar13012001",

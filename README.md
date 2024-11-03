@@ -1,145 +1,191 @@
-<br/>
+# Monk-Minal CLI - Typing Practice Terminal Tool
+![Contributors](https://img.shields.io/github/contributors/shikhar13012001/monk-minal?color=dark-green) ![Forks](https://img.shields.io/github/forks/shikhar13012001/monk-minal?style=social) ![Stargazers](https://img.shields.io/github/stars/shikhar13012001/monk-minal?style=social) ![Issues](https://img.shields.io/github/issues/shikhar13012001/monk-minal) ![License](https://img.shields.io/github/license/shikhar13012001/monk-minal) 
 <p align="center">
   <a href="https://github.com/shikhar13012001/monk-minal">
     <img src="https://cdn.dribbble.com/userupload/5060097/file/original-11ba38b32008a09195495c9ceaed13dc.jpg?compress=1&resize=1024x768" alt="Logo" width="80" height="80">
   </a>
-
-  <h3 align="center">Monk-Minal</h3>
-
-  <p align="center">
-    MonkeyType CLI: Power to the Typists
-    <br/>
-    <br/>
-    <a href="https://github.com/shikhar13012001/monk-minal"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/shikhar13012001/monk-minal">View Demo</a>
-    .
-    <a href="https://github.com/shikhar13012001/monk-minal/issues">Report Bug</a>
-    .
-    <a href="https://github.com/shikhar13012001/monk-minal/issues">Request Feature</a>
   </p>
-</p>
 
-![Contributors](https://img.shields.io/github/contributors/shikhar13012001/monk-minal?color=dark-green) ![Forks](https://img.shields.io/github/forks/shikhar13012001/monk-minal?style=social) ![Stargazers](https://img.shields.io/github/stars/shikhar13012001/monk-minal?style=social) ![Issues](https://img.shields.io/github/issues/shikhar13012001/monk-minal) ![License](https://img.shields.io/github/license/shikhar13012001/monk-minal) 
+**Monk-Minal** is an interactive, open-source typing practice tool built for the command-line interface (CLI). It brings the functionality and ease of web-based typing tools like MonkeyType directly to your terminal, providing users with a fully offline typing practice experience. With customizable options for game type, time, word count, and difficulty levels, **Monk-Minal** is the perfect tool to help users improve typing speed and accuracy while enjoying a minimalistic, distraction-free environment.
 
-## Table Of Contents
+Whether you're a developer, writer, or just someone looking to improve your typing skills, Monk-Minal offers an engaging and flexible platform with real-time feedback and performance tracking.
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+## Table of Contents
 
-## About The Project
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the CLI](#running-the-cli)
+- [Game Modes](#game-modes)
+- [Performance Metrics](#performance-metrics)
+- [Customization](#customization)
+  - [Game Type](#game-type)
+  - [Difficulty Levels](#difficulty-levels)
+  - [Time and Word Limits](#time-and-word-limits)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
-![Screen Shot](https://i.ibb.co/pJ7vMT3/Screenshot-488.png)
-![Screen Shot](https://i.ibb.co/6PsDTKg/Screenshot-489.png)
-![Screen Shot](https://i.ibb.co/WnYBcVq/Screenshot-491.png)
+## Features
 
-MonkeyType Terminal is a powerful, open-source typing practice tool designed specifically for the command-line interface. It offers an immersive and interactive way to improve your typing speed and accuracy right from your terminal.
+- **Fully Offline**: Practice typing without an internet connection.
+- **Multiple Game Modes**: Choose between time-based, word count, or quote typing challenges.
+- **Difficulty Levels**: Select from Easy, Medium, or Hard word challenges.
+- **Real-Time Feedback**: Provides live updates on typing speed, errors, and accuracy.
+- **Customizable Time and Word Count**: Tailor your sessions with flexible time and word count limits.
+- **Detailed Performance Metrics**: Track Words Per Minute (WPM), accuracy, and errors to gauge improvement.
+- **Command-Line Interface (CLI)**: Simple and clean interface with intuitive prompts for selection.
 
-Inspired by the popular web-based tool MonkeyType, this project strives to bring that same functionality to the terminal environment. With a straightforward and user-friendly interface, users can practice their typing skills anytime, regardless of their internet connectivity.
-
-Whether you're a developer seeking to boost your coding speed, a writer looking to enhance your typing accuracy, or simply a computer user who wants to improve your keyboard skills, MonkeyType Terminal is the ideal tool for you.
-
-It provides a variety of features, such as adjustable word lengths, adjustable typing duration, a progress tracker, and customizable typing challenges. The tool also provides instant feedback on your performance, highlighting errors for quick recognition and learning.
-
-Experience the thrill of improving your typing skills with MonkeyType Terminal, a typing tool that combines productivity and fun in the most engaging way possible.
-
-## Built With
-
-This project utilizes a range of powerful packages to create an engaging and interactive command line interface experience:
-
-- [Boxen](https://www.npmjs.com/package/boxen): For creating boxes in the terminal.
-- [Center-Align](https://www.npmjs.com/package/center-align): For center-aligning text in the terminal.
-- [Chalk](https://www.npmjs.com/package/chalk): For styling terminal string output with colors.
-- [CLI-Alerts](https://www.npmjs.com/package/cli-alerts): For creating informative alerts in the terminal.
-- [CLI-Cursor](https://www.npmjs.com/package/cli-cursor): For controlling the terminal cursor.
-- [CLI-Handle-Error](https://www.npmjs.com/package/cli-handle-error): For better error handling in CLI.
-- [CLI-Handle-Unhandled](https://www.npmjs.com/package/cli-handle-unhandled): For catching unhandled errors and rejections.
-- [CLI-Meow-Help](https://www.npmjs.com/package/cli-meow-help): For creating attractive help screens.
-- [CLI-Spinners](https://www.npmjs.com/package/cli-spinners): For displaying spinner animations in the terminal.
-- [CLI-Welcome](https://www.npmjs.com/package/cli-welcome): For displaying a welcome message.
-- [CLI-Width](https://www.npmjs.com/package/cli-width): For getting the terminal's width.
-- [Enquirer](https://www.npmjs.com/package/enquirer): For creating stylish command line prompts.
-- [Figlet](https://www.npmjs.com/package/figlet): For creating ASCII Art from text.
-- [Meow](https://www.npmjs.com/package/meow): For parsing CLI input.
-- [Ora](https://www.npmjs.com/package/ora): For creating elegant terminal spinners.
-- [Random-Words](https://www.npmjs.com/package/random-words): For generating random words.
-- [Readline](https://nodejs.org/api/readline.html): Built-in Node.js module for reading user input from the terminal.
-- [Readline-Sync](https://www.npmjs.com/package/readline-sync): For synchronous user input from the terminal.
-- [Ruxe](https://www.npmjs.com/package/ruxe): For running external commands.
-- [Strip-Ansi](https://www.npmjs.com/package/strip-ansi): For removing ANSI escape codes from text.
-- [Word-Wrap](https://www.npmjs.com/package/word-wrap): For wrapping text to a specified length.
-
-
+## Screenshots
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps
-
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Before you begin, ensure you have **Node.js** installed on your system. You can verify this by running:
 
-* npm
-
-```sh
-npm install npm@latest -g
+```bash
+node -v
 ```
+
+If Node.js is not installed, [download and install it from here](https://nodejs.org/en/download/).
 
 ### Installation
 
+1. **Clone the repository**:
 
-1. Clone the repo
+   ```bash
+   git clone https://github.com/shikhar13012001/monk-minal.git
+   ```
 
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
+2. **Navigate to the project directory**:
 
-2. Install NPM packages
+   ```bash
+   cd monk-minal
+   ```
 
-```sh
-npm install
-```
+3. **Install the required dependencies**:
 
-3. Linking the package locally for testing 
+   ```bash
+   npm install
+   ```
 
-```sh
-npm link
-```
+4. **Link the package locally for easy CLI access**:
 
-4. Enter `mnm` to start type
-```sh
+   ```bash
+   npm link
+   ```
+
+   Now, you can run the CLI by entering:
+
+   ```bash
+   mnm
+   ```
+
+### Running the CLI
+
+To start using Monk-Minal, simply type `mnm` in your terminal and follow the interactive prompts to customize your typing session.
+
+```bash
 mnm
 ```
 
-## Roadmap
+You'll be asked to choose the following options:
+- **Game Type**: Time-based, Word count-based, or a Quote typing challenge.
+- **Time/Word Limit**: Depending on your selected game mode, you can choose a time or word limit.
+- **Difficulty**: Select between Easy, Medium, or Hard word difficulty.
 
-See the [open issues](https://github.com/shikhar13012001/monk-minal/issues) for a list of proposed features (and known issues).
+The game will start once you press any key. After completing the session, you'll receive feedback on your performance, including your Words Per Minute (WPM), accuracy, and errors.
+
+## Game Modes
+
+Monk-Minal offers three distinct game modes to cater to different practice styles:
+
+1. **Time Mode**: 
+   - Focuses on typing for a set duration (15s, 30s, 60s, 120s).
+   - Perfect for practicing sustained typing speed over a period of time.
+
+2. **Word Mode**: 
+   - Lets you practice typing a specific number of words (e.g., 10, 20, 30, 40, 50 words).
+   - Great for short bursts of typing or focused word count-based exercises.
+
+3. **Quote Mode**: 
+   - Type out randomly selected famous quotes.
+   - Ideal for those who want a mix of word challenges and inspirational quotes.
+
+## Performance Metrics
+
+Monk-Minal provides real-time feedback and a comprehensive summary of your performance at the end of each session. The performance metrics include:
+
+- **Gross WPM**: The total words typed per minute (including errors).
+- **Net WPM**: Adjusted for accuracy, this value represents your effective typing speed after accounting for errors.
+- **Accuracy**: A percentage of how many characters you typed correctly, relative to the total characters typed.
+- **Errors**: Shows where and how many typing errors were made.
+
+This detailed feedback helps track improvement and gives users actionable insights to enhance their typing skills.
+
+## Customization
+
+Monk-Minal allows you to customize the following aspects of your typing practice:
+
+### Game Type
+
+- **Time**: Practice for a set duration.
+- **Words**: Type a specific number of words.
+- **Quote**: Type random quotes from a curated list.
+
+### Difficulty Levels
+
+Choose from three levels of difficulty to tailor the word selection to your current skill level:
+
+1. **Easy**: Generates shorter words (up to 5 characters).
+2. **Medium**: Generates words with up to 8 characters.
+3. **Hard**: Generates complex words of varying lengths (8–12 characters), testing your skill and speed.
+
+### Time and Word Limits
+
+Monk-Minal offers flexible time and word limits to suit your needs:
+- **Time Mode**: 15 seconds, 30 seconds, 60 seconds, or 120 seconds.
+- **Word Mode**: 10, 20, 30, 40, or 50 words.
+
+These customizable options allow you to adjust the challenge level based on your available time and typing goals.
+
+## Built With
+
+Monk-Minal is built using the following powerful libraries and modules:
+
+- **[Chalk](https://www.npmjs.com/package/chalk)**: Terminal string styling and coloring.
+- **[Enquirer](https://www.npmjs.com/package/enquirer)**: Interactive prompts for user input.
+- **[CLI-Spinners](https://www.npmjs.com/package/cli-spinners)**: Animated spinners to indicate elapsed time.
+- **[Random-Words](https://www.npmjs.com/package/random-words)**: For generating random words based on difficulty.
+- **[Readline](https://nodejs.org/api/readline.html)**: Node.js module for handling user input and keypress events.
+- **[Strip-ANSI](https://www.npmjs.com/package/strip-ansi)**: For stripping ANSI escape codes from terminal strings.
+- **[Ruxe](https://www.npmjs.com/package/ruxe)**: For wrapping text output to fit terminal width.
+- **[Ora](https://www.npmjs.com/package/ora)**: Elegant terminal spinners for visual feedback.
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/shikhar13012001/monk-minal/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/shikhar13012001/monk-minal/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+Contributions are always welcome and appreciated! To contribute:
 
-### Creating A Pull Request
+1. **Fork the repository**.
+2. **Create your feature branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Commit your changes**: 
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. **Push to the branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. **Open a pull request**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Please ensure your contributions adhere to the [Code of Conduct](https://github.com/shikhar13012001/monk-minal/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -147,9 +193,9 @@ Distributed under the MIT License. See [LICENSE](https://github.com/shikhar13012
 
 ## Authors
 
-* **Shikhar Gupta** - *IT student* - [Shikhar Gupta](https://github.com/shikhar13012001/) - *own's this repo and every line to the last semi-colon.*
+- **Shikhar Gupta** - [GitHub Profile](https://github.com/shikhar13012001)
 
 ## Acknowledgements
 
-* [Shikhar Gupta](https://github.com/shikhar13012001/) 
-* [ImgShields](https://shields.io/)
+Special thanks to the open-source community for the amazing libraries and tools that made this project possible.
+

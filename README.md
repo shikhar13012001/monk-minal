@@ -41,6 +41,11 @@ Whether you're a developer, writer, or just someone looking to improve your typi
 - **Command-Line Interface (CLI)**: Simple and clean interface with intuitive prompts for selection.
 
 ## Screenshots
+![Screenshot (3)](https://github.com/user-attachments/assets/b0fe7a1c-18fe-4a27-b74b-9ca8e6b77f9e)
+![Screenshot (4)](https://github.com/user-attachments/assets/9d0eb44b-6180-4f38-99fe-571ee7c10b13)
+![Screenshot (6)](https://github.com/user-attachments/assets/5ef17ed9-56c8-41ac-aed4-f2a82fc86e98)
+
+
 ## Getting Started
 
 ### Prerequisites

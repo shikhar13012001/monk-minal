@@ -1,7 +1,7 @@
 {
 	"name": "monk-minal",
 	"description": "terminal version of monkeytype",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"license": "MIT",
 	"bin": {
 		"monk-n-minal": "index.js",
@@ -20,8 +20,29 @@
 		"typing",
 		"typing-speed",
 		"typing-test",
-		"typing-game"
-	],
+		"typing-game",
+		"typing practice",
+		"typing accuracy",
+		"WPM test",
+		"command line typing tool",
+		"CLI typing game",
+		"typing skills",
+		"speed typing",
+		"keyboard practice",
+		"typing challenge",
+		"typing workout",
+		"improve typing speed",
+		"typing speedometer",
+		"typing test offline",
+		"touch typing practice",
+		"terminal typing test",
+		"developer typing tool",
+		"coding typing skills",
+		"typing trainer",
+		"typing proficiency",
+		"real-time typing feedback"
+	]
+	,
 	"files": [
 		"index.js",
 		"utils",

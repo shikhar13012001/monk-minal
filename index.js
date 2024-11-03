@@ -27,8 +27,9 @@ const { clear, debug } = flags;
 	});
 	log(Banner);
 	input.includes(`help`) && cli.showHelp(0);
-	// loader
+	// loader 
 	const data = await Options();
+
 	await loader();
 	await Game(data);
 })();

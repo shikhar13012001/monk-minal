@@ -20,6 +20,7 @@ const wordsPrompt = new Select({
 	choices: ['10', '20', '30', '40', '50']
 });
 
+// Option for difficulty
 const difficultyPrompt = new Select({
 	name: 'difficulty',
 	message: 'Pick a difficulty:',

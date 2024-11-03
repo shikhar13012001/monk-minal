@@ -1,7 +1,7 @@
 {
 	"name": "monk-minal",
 	"description": "terminal version of monkeytype",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"bin": {
 		"monk-n-minal": "index.js",

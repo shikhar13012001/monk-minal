@@ -10,7 +10,15 @@
 	"author": {
 		"name": "shikhar13012001",
 		"email": "ishgupta2015@gmail.com",
-		"url": "https://portfolio-shikhar13012001.vercel.app/"
+		"url": "https://astralbuild.dev"
+	},
+	"homepage": "https://github.com/shikhar13012001/monk-minal#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shikhar13012001/monk-minal.git"
+	},
+	"bugs": {
+		"url": "https://github.com/shikhar13012001/monk-minal/issues"
 	},
 	"keywords": [
 		"monk-minal",
